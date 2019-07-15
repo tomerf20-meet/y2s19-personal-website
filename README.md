@@ -1,1 +1,1 @@
-# y2s19-personal-website
+# Y2 CS Personal Website Project
