@@ -1,11 +1,13 @@
 <html>
 <head>
+	<script src=”PersonalWebsite.js”></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="PersonalWebsite.css">
 	<title> My Personal Website </title>
 </head>
 <body>
 	<h1> Tomer Ferdman </h1>
-	<p> My Name Is <a href = "https://en.wikipedia.org/wiki/Tomer_(name)" target = "blank"> Tomer </a></p>
+	<p> This Site is About <a href = "https://en.wikipedia.org/wiki/Tomer_(name)" target = "blank"> Tomer </a></p>
 	
 	<div>
 		<table>
@@ -17,12 +19,12 @@
 			<tr>
 				<th class = "headers">1</th>
 				<td> <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjAfNhDWxrrD1f-QPQx2hm9LfdVOsE7W984h1K7ylut2VtsWzR" width = 500px></td>
-				<td> <img src = "https://www.budgetbytes.com/wp-content/uploads/2016/05/Bacon-and-Caramelized-Bacon-Pizza-cooked-1-480x270.jpg" width = 500px></td>
+				<td> <p class = "overlay"> A dish of Italian origin consisting of a flat, round base of dough baked with a topping of tomato sauce and cheese, typically with added meat or vegetables. </p> <img src = "https://www.budgetbytes.com/wp-content/uploads/2016/05/Bacon-and-Caramelized-Bacon-Pizza-cooked-1-480x270.jpg" width = 500px></td>
 			</tr>
 			<tr>
 				<th class = "headers">2</th>
 				<td> <a href="https://en.wikipedia.org/wiki/Basketball" target="blank"> Basketball </a></td>
-				<td> <a href="https://en.wikipedia.org/wiki/Pizza" target="blank"> Pizza </a></td>
+				<td id = "pizza"> <a href="https://en.wikipedia.org/wiki/Pizza" target="blank"> Pizza </a></td>
 			</tr>
 			<tr>
 				<th class = "headers">3</th>
@@ -44,5 +46,11 @@
 				<td> <a href="https://en.wikipedia.org/wiki/Book" target="blank"> Books </a></td>
 				<td> <a href="https://en.wikipedia.org/wiki/Sushi" target="blank"> Sushi </a></td>
 			</tr>
+		<div id="PizzaDescription">
+			
+		</div>
+
+
+
 </body>
 </html>
